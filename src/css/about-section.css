@@ -1,0 +1,60 @@
+.logo-about {
+    width: 7rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.logo-about:hover {
+    transform: rotate3d(1, 2, 1,360deg);
+}
+
+
+.about-elements {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 5rem;
+}
+
+.about-title {
+    transition: .3s;
+}
+
+.about-title:hover {
+    color: var(--hover-color);
+}
+
+
+.about-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    transition: .3s;
+
+    text-align: center;
+    color: var(--text-color);
+    width: 50%;
+}
+
+.about-p {
+    transition: .3s;
+}
+
+.about-p:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .about-elements {
+        padding: 0rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --text-color: #ffffff;
+
+    --hover-color: #ffea00;
+
+    --background-color: #1a1a1a;
+
+    --font-family: 'Roboto', sans-serif; 
+
+    --h1-font-size: 4.25rem;
+    --h2-font-size: 3rem;
+
+    --nav-font-size: 0.9rem;
+    --p-font-size: 1.3rem;
+    --p-font-size-m: 1.7rem;
+    --p-font-weight: bold;
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--background-color);
+    border-radius: 4px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+  
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--background-color) transparent;
+  }
+
+  h1, h2, h3 {
+    color: var(--text-color);
+  }
+
+.yellow-line {
+  border-bottom: 4px solid var(--hover-color);
+}
+
+.purple-line {
+  border-bottom: 4px solid #5F00CD;
+  width: 100%;
+}

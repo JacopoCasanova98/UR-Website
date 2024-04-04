@@ -1,0 +1,370 @@
+.navbar {
+    border-bottom: 4px solid #5F00CD;
+}
+
+.vr-desc-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    padding: 4rem;    
+}
+
+
+.vr-proj-img {
+    grid-column: span 2;
+
+    display: flex;
+    justify-content: center;
+}
+
+.vr-proj-img-img {
+    width: 90%;
+    border-radius: 15%;
+    border: 5px solid #5F00CD;
+    cursor: pointer;
+}
+
+.vr-grid-info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    gap: 2rem;
+}
+
+
+.vr-proj-download-button {
+
+    padding: 0.8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: var(--text-color);
+    background-color: #5F00CD;
+    border-radius: 1rem;
+    border: 1px solid #5F00CD;
+    font-size: var(--p-font-size);
+    transition: .3s;
+
+    cursor: pointer;
+}
+
+.vr-proj-download-button:hover {
+    transform: scale(1.1);
+}
+
+.vr-available-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vr-available-on {
+    color: var(--text-color);
+}
+
+.vr-game-date {
+    color: var(--text-color);
+}
+
+.vr-console-logos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.vr-console-logos img{
+    width: 2.5rem;
+}
+
+.vr-proj-images-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin-top: 4rem;
+
+    padding-left: 7rem;
+    padding-right: 7rem;
+
+    margin-bottom: 4rem;
+    
+}
+
+.vr-proj-image {
+    width: 70%;
+    border: 3px solid #5F00CD;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.vr-proj-logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vr-proj-logo {
+    width: 60%;
+}
+
+.vr-proj-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.vr-proj-description-text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--text-color);
+}
+
+
+
+
+
+.vr-proj-strong-ponits-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+}
+
+.vr-proj-strong-point-img {
+    width: 30%;
+    cursor: pointer; 
+}
+
+.vr-proj-strong-point-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: var(--text-color);
+
+    padding: 2rem;
+}
+
+.vr-proj-description-text-title {
+    transition: .3s;
+}
+
+.vr-proj-description-text-title:hover {
+    color: #5F00CD;
+}
+
+.vr-proj-strong-point-text {
+    text-align: center;
+    transition: .3s;
+}
+
+.vr-proj-description-text {
+    transition: .3s;
+}
+
+
+
+.vr-proj-details {
+
+    padding-left: 5rem;
+    margin-bottom: 3rem;
+}
+
+.vr-proj-details-titles {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.vr-proj-additional-informations {
+    color: #5F00CD;
+    text-decoration: underline;
+}
+
+.vr-proj-system-requirements {
+    color: gray;
+}
+
+
+.vr-proj-details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    padding-left: 5rem;
+    margin-bottom: 15rem;
+}
+
+.vr-proj-genre-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    color: var(--text-color);
+}
+
+.vr-proj-strong-point-title {
+    transition: .3s;
+    cursor: pointer;
+}
+
+.vr-proj-strong-point-title:hover {
+    transform: scale(1.1);
+    color: #5F00CD;
+}
+
+.vr-proj-strong-point-text {
+    transition: .3s;
+    cursor: pointer;
+}
+
+.vr-proj-strong-point-text:hover {
+    transform: scale(1.1);
+}
+
+.vr-proj-genre-title {
+    transition: .3s;
+}
+
+.vr-proj-genre-title:hover {
+    color: #5F00CD;
+    transform: scaleY(1.1);
+}
+
+.footer-link-text-vr {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: .5s;
+}
+
+.footer-link-text-vr:hover {
+    color: #5F00CD;
+}
+
+.nav-link-navbar:hover {
+    color: #5F00CD;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .vr-desc-1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 4rem;
+        padding: 0rem;
+    }
+
+
+    .vr-proj-image {
+        grid-column: 1fr;
+    }
+
+    .vr-proj-images-grid {
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+    }
+
+
+    .vr-console-logos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .vr-console-logos img{
+        width: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .vr-available-text {
+        margin-top: 1rem;
+    }
+    
+    .vr-proj-images-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 2rem;
+    }
+
+
+    .vr-grid-info {
+        font-size: var(--p-font-size-m);
+    }
+
+    .vr-proj-description {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+        font-size: var(--p-font-size-m);
+    }
+
+
+    .vr-proj-strong-ponits-div {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        font-size: var(--p-font-size-m);
+    }
+
+    .vr-proj-strong-point-img {
+        width: 9rem;
+    }
+
+    .vr-proj-details {
+
+        padding-left: 0rem;
+        
+    }
+
+    .vr-proj-details-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+        font-size: var(--p-font-size-m);
+    
+        padding-left: 0rem;
+        margin-bottom: 4rem;
+    }
+
+    .vr-proj-details-titles {
+        flex-direction: column;
+        text-align: center;
+        font-size: var(--p-font-size-m);
+    }
+
+    .vr-proj-strong-point-title {
+        text-align: center;
+    }
+
+    .vr-proj-strong-point-text {
+        text-align: center;
+    }
+
+
+    .navbar {
+        background-color: var(--text-color);
+        display: none;
+        z-index: 4;
+        position: fixed;
+
+        top: 0;
+        padding: 8rem;
+        gap: 5rem;
+        justify-content: center;
+    }
+}

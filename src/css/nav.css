@@ -1,0 +1,125 @@
+
+.logo-nav{
+    width: 3rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%; 
+    background-color: transparent;
+    z-index: 2;
+    padding: 1rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-link-text {
+    text-decoration: none;
+    font-size: var(--nav-font-size);
+    font-weight: var(--p-font-weight);
+    color: var(--text-color);
+    transition: .3s;
+}
+
+.scroll {
+    transition: 0.5s;
+}
+
+.navbar.scroll {
+    background-color: #fffffff3;
+    transition: 0.5s; 
+    z-index: 10;
+}
+
+.nav-link-navbar {
+    text-decoration: none;
+    font-size: var(--nav-font-size);
+    font-weight: var(--p-font-weight);
+    color: var(--text-color); 
+    transition: color 0.3s;
+}
+
+.nav-link-navbar:hover {
+    color: var(--hover-color); 
+}
+
+.navbar.scroll .nav-link-navbar {
+    color: black; 
+}
+
+.navbar.active {
+    display: grid;
+}
+
+.nav-links.active {
+    display: grid;
+}
+
+.icon-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+
+    .logo-nav{
+        width: 4rem;
+    }
+
+
+    .icon-menu {
+        display: flex;
+        color: var(--background-color);
+        position: fixed;
+        top: 3rem;
+        right: 3rem;
+        z-index: 4;
+        font-size: 40px;
+        border: 1px solid var(--background-color);
+        padding: 1.3rem;
+        background-color: var(--text-color);
+    }
+
+    .navbar {
+        padding-top: 4rem;
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        row-gap: 2rem;
+        background-color: var(--text-color);
+        display: none;
+        padding-bottom: 4rem;
+        z-index: 3;
+    }
+
+    .active {
+        display: grid;
+    }
+
+    .nav-div-menu {
+        display: none;
+    }
+
+    .nav-links {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1fr, 1fr);
+        text-align: center;
+        font-size: larger;
+    }
+
+    .nav-link-text {
+        color: var(--background-color);
+        text-decoration: none;
+        font-size: var(--p-font-size-m);
+    }
+    
+}
